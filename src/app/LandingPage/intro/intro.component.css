@@ -1,11 +1,29 @@
-div.container{
-  text-align: center;
-  height: 100vh;
+div.container-fluid{
   background-image: url('../../../assets/intro.jpg');
   background-size: cover;
   background-position: center;
 }
 
-h5{
-  color: white;
+h4{
+  color: darkslateblue;
+  text-align: center;
+  margin-left: 65%;
+  font-weight: bold;
+}
+
+h4#commissie-naam{
+  color: darkred;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1000px){
+  h4#commissie-naam{
+    margin-bottom: 25%;
+  }
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
