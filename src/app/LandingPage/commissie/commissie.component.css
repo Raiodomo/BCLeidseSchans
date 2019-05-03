@@ -30,3 +30,14 @@ p.lid-omschrijving{
   display: inline-block;
   width: 300px;
 }
+
+@media only screen and (max-width: 600px){
+  div.justify-content-center{
+    justify-content: none!important;
+    align-self: auto!important;
+  }
+
+  div.container{
+    overflow: scroll;
+  }
+}

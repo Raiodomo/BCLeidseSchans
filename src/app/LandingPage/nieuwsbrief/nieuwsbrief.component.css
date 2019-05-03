@@ -64,3 +64,21 @@ h5#nieuwsbrief-archief{
     display: none;
   }
 }
+
+@media only screen and (max-width: 600px){
+  h4{
+    font-size: 2em;
+  }
+
+  div.container{
+    overflow: scroll;
+  }
+  div.justify-content-center{
+    justify-content: none!important;
+    align-self: auto!important;
+  }
+
+  i{
+    display: none;
+  }
+}

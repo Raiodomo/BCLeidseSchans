@@ -22,6 +22,16 @@ h4#commissie-naam{
   }
 }
 
+@media only screen and (max-width: 600px){
+  h4#commissie-naam{
+    margin-bottom: 25%;
+  }
+
+  h4{
+    margin-left: 0px;
+  }
+}
+
 button{
   margin-top: 10px;
   display: block;
