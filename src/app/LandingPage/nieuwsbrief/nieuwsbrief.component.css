@@ -64,7 +64,15 @@ h5#nieuwsbrief-archief{
     display: none;
   }
 }
-
+@media only screen and (max-width: 1600px){
+  div.container{
+    height: auto!important; 
+  }
+  div.justify-content-center{
+    justify-content: none!important;
+    align-self: auto!important;
+  }
+}
 @media only screen and (max-width: 600px){
   h4{
     font-size: 2em;
