@@ -9,6 +9,10 @@ export class NieuwsbriefComponent implements OnInit {
 
   constructor() { }
 
+  getAllNieuwsbrief() {
+    //  Get nieuwsbrief from API.
+  }
+
   ngOnInit() {
   }
 

@@ -1,3 +1,66 @@
 div.container{
+  height: 100vh;
+}
+
+div#left{
+
+}
+
+div#right{
+}
+
+img{
+  margin-top: 25px;
+  width: 20%;
+}
+
+mat-nav-list{
+  margin-top: 25px;
+}
+
+h4{
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 32px;
+}
+
+h5{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
   text-align: center;
+  padding: 10px;
+}
+p#nieuwsbrief-title{
+  font-size:  25px;
+}
+p#nieuwsbrief-title, p#nieuwsbrief-subtitle{
+  font-weight: bold;
+}
+
+.mat-list-base .mat-list-item{
+  height: 100px;
+  margin-top: 45px;
+}
+
+h5#nieuwsbrief-archief{
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1000px){
+  h4{
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    padding: 20px;
+  }
+
+  i{
+    display: none;
+  }
 }
