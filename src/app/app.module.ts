@@ -5,7 +5,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatListModule } from '@angular/material/list';
-
+import {MatFormFieldModule} from '@angular/material/form-field'; 
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -14,6 +14,9 @@ import { FooterComponent } from './LandingPage/footer/footer.component';
 import { IntroComponent } from './LandingPage/intro/intro.component';
 import { NieuwsbriefComponent } from './LandingPage/nieuwsbrief/nieuwsbrief.component';
 import { CommissieComponent } from './LandingPage/commissie/commissie.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from 'selenium-webdriver/http';
+
 
 @NgModule({
   declarations: [
@@ -22,15 +25,16 @@ import { CommissieComponent } from './LandingPage/commissie/commissie.component'
     FooterComponent,
     IntroComponent,
     NieuwsbriefComponent,
-    CommissieComponent
+    CommissieComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     BrowserAnimationsModule,
     NoopAnimationsModule,
     AppRoutingModule,
     MatExpansionModule,
     MatListModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
