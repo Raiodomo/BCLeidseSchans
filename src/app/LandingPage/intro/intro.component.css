@@ -5,14 +5,14 @@ div.container-fluid{
 }
 
 h4{
-  color: darkslateblue;
+  color: orangered;
   text-align: center;
   margin-left: 65%;
   font-weight: bold;
 }
 
 h4#commissie-naam{
-  color: darkred;
+  color: orangered;
   margin-bottom: 5%;
 }
 
@@ -23,8 +23,8 @@ h4#commissie-naam{
 }
 
 @media only screen and (max-width: 600px){
-  h4#commissie-naam{
-    margin-bottom: 25%;
+  h4.commissie{
+    margin-top: 40%;
   }
 
   h4{

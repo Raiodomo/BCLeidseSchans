@@ -3,7 +3,11 @@ div.container{
 }
 
 div#left{
+  font-family: textFont;
+}
 
+div#left p{
+  font-family: textFont;
 }
 
 div#right{

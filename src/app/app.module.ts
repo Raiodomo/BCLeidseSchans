@@ -14,6 +14,7 @@ import { FooterComponent } from './LandingPage/footer/footer.component';
 import { IntroComponent } from './LandingPage/intro/intro.component';
 import { NieuwsbriefComponent } from './LandingPage/nieuwsbrief/nieuwsbrief.component';
 import { CommissieComponent } from './LandingPage/commissie/commissie.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CommissieComponent } from './LandingPage/commissie/commissie.component'
     FooterComponent,
     IntroComponent,
     NieuwsbriefComponent,
-    CommissieComponent
+    CommissieComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
