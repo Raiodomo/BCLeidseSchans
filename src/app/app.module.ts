@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatListModule } from '@angular/material/list';
-import {MatFormFieldModule} from '@angular/material/form-field'; 
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule, MatSnackBarModule  } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './LandingPage/header/header.component';
@@ -15,6 +17,7 @@ import { IntroComponent } from './LandingPage/intro/intro.component';
 import { NieuwsbriefComponent } from './LandingPage/nieuwsbrief/nieuwsbrief.component';
 import { CommissieComponent } from './LandingPage/commissie/commissie.component';
 import { ContactComponent } from './contact/contact.component';
+import { LandingContainerComponent } from './LandingPage/landing-container/landing-container.component';
 
 @NgModule({
   declarations: [
@@ -24,16 +27,21 @@ import { ContactComponent } from './contact/contact.component';
     IntroComponent,
     NieuwsbriefComponent,
     CommissieComponent,
-    ContactComponent
+    ContactComponent,
+    LandingContainerComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule,
     AppRoutingModule,
     MatExpansionModule,
     MatListModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule,
+    MatSnackBarModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

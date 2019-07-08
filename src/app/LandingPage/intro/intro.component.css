@@ -20,7 +20,9 @@ h4#commissie-naam{
   text-shadow: 4px 4px 0 rgb(223,215,215) , 5px 4px 0 rgb(116,108,108) ;
   
 }
-
+a:hover{
+  text-decoration: none;
+}
 @media only screen and (max-width: 1000px){
   h4#commissie-naam{
     margin-bottom: 25%;
