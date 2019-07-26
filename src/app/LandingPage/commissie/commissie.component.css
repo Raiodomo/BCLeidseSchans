@@ -3,8 +3,10 @@ div.container{
 }
 
 img{
-  width: 100px;
-  display: inline-block;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h5{
@@ -19,17 +21,19 @@ h5{
 p.commissie-functie{
   background-color: darkslateblue;
   color: white;
-  font-weight: bold;
   width: 150px;
   padding: 10px;
-  margin-left:auto;
+  display: block;
+  text-align: center;
+  margin-left: auto; 
   margin-right: auto;
-  display: inline-block;
 }
 
 p.lid-omschrijving{
-  display: inline-block;
   width: 300px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 p.commissie-omschrijving{

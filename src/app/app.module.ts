@@ -18,6 +18,7 @@ import { NieuwsbriefComponent } from './LandingPage/nieuwsbrief/nieuwsbrief.comp
 import { CommissieComponent } from './LandingPage/commissie/commissie.component';
 import { ContactComponent } from './contact/contact.component';
 import { LandingContainerComponent } from './LandingPage/landing-container/landing-container.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LandingContainerComponent } from './LandingPage/landing-container/landi
     NieuwsbriefComponent,
     CommissieComponent,
     ContactComponent,
-    LandingContainerComponent
+    LandingContainerComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

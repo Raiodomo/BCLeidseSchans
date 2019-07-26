@@ -4,7 +4,6 @@ div.col-sm-12{
   height: 215x;
   background-color: red;
   color: white;
-  text-align: center;
   margin: 0;
 }
 
@@ -18,7 +17,13 @@ h5{
   background-color:darkslateblue;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 p{
+  font-size: 1.3em;
 }
 
 i{
