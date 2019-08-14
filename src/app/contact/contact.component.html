@@ -6,26 +6,24 @@
     <form #form action="85.214.24.229:5005" method="POST" enctype="multipart/form-data">
       <div class="form-group">
         <label for="fullName">Volledige Naam</label>
-        <input name="name" type="email" class="form-control" aria-describedby="full name" placeholder="Full Name">
-        <small id="emailHelp" class="form-text text-muted">What should we call you?</small>
+        <input name="name" type="email" class="form-control" aria-describedby="full name" placeholder="Naam">
       </div>
       <div class="form-group">
         <label for="subject">Onderwerp</label>
-        <input name="subject" type="email" class="form-control" aria-describedby="subject" placeholder="Subject">
-        <small id="emailHelp" class="form-text text-muted">Subject of the enquiry</small>
+        <input name="subject" type="email" class="form-control" aria-describedby="subject" placeholder="Onderwerp">
       </div>
       <div class="form-group">
         <label for="emailAddress">Email Address</label>
-        <input name="email" type="email" class="form-control" aria-describedby="email address" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input name="email" type="email" class="form-control" aria-describedby="email address" placeholder="Vul in je email">
+        <small id="emailHelp" class="form-text text-muted">We zullen nooit je email delen met een derde.</small>
       </div>
       <div class="form-group">
         <label for="message">Bericht</label>
-        <textarea name="message" col="4" row="4" class="form-control" aria-describedby="message to send" placeholder="Message to send"></textarea>
-        <small id="emailHelp" class="form-text text-muted">What can we do for you?</small>
+        <textarea name="message" col="4" row="4" class="form-control" aria-describedby="message to send" placeholder="Klacht of ideeën. Schrijf maar."></textarea>
+        <small id="emailHelp" class="form-text text-muted">Wat kunnen we voor je doen?</small>
       </div>
-      <button class="btn btn-success" (click)="form.submit()">Send Enquiry</button>
-      <button class="btn btn-danger" routerLink="/">Back</button>
+      <button class="btn btn-success" (click)="form.submit()">Bericht verzenden</button>
+      <button class="btn btn-danger" routerLink="/">Terug</button>
     </form>
   </div>
 </div>
