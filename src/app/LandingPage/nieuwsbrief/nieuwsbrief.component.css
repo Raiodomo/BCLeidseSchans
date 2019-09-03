@@ -16,6 +16,7 @@ div#right{
 img{
   margin-top: 25px;
   width: 20%;
+
 }
 
 mat-nav-list{
@@ -55,9 +56,22 @@ h5#nieuwsbrief-archief{
   margin-top: 25px;
 }
 
-nav a{
-  color: darkred;
-  font-weight: bold;
+.min_bzk {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link{
+  color: darkslategrey
+}
+
+​a:visited {
+  color: darkslategrey;
+}
+
+a:hover{
+  color: darkslategrey
 }
 
 @media only screen and (max-width: 1000px){

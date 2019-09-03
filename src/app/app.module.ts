@@ -19,6 +19,7 @@ import { CommissieComponent } from './LandingPage/commissie/commissie.component'
 import { ContactComponent } from './contact/contact.component';
 import { LandingContainerComponent } from './LandingPage/landing-container/landing-container.component';
 import { FaqComponent } from './faq/faq.component';
+import { ArchiefComponent } from './archief/archief.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FaqComponent } from './faq/faq.component';
     CommissieComponent,
     ContactComponent,
     LandingContainerComponent,
-    FaqComponent
+    FaqComponent,
+    ArchiefComponent
   ],
   imports: [
     BrowserModule,
