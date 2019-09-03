@@ -55,6 +55,11 @@ h5#nieuwsbrief-archief{
   margin-top: 25px;
 }
 
+nav a{
+  color: darkred;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1000px){
   h4{
     margin-top: 15px;
