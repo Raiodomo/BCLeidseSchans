@@ -9,17 +9,19 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule, MatSnackBarModule  } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { AngularFireModule } from '@angular/fire';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './LandingPage/header/header.component';
 import { FooterComponent } from './LandingPage/footer/footer.component';
 import { IntroComponent } from './LandingPage/intro/intro.component';
 import { NieuwsbriefComponent } from './LandingPage/nieuwsbrief/nieuwsbrief.component';
 import { CommissieComponent } from './LandingPage/commissie/commissie.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { LandingContainerComponent } from './LandingPage/landing-container/landing-container.component';
-import { FaqComponent } from './faq/faq.component';
-import { ArchiefComponent } from './archief/archief.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { ArchiefComponent } from './components/archief/archief.component';
+import { environment } from 'src/environments/environment';
+import { MaterialModule } from './modules/material.module';
 
 @NgModule({
   declarations: [
@@ -38,13 +40,9 @@ import { ArchiefComponent } from './archief/archief.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatExpansionModule,
-    MatListModule,
-    MatFormFieldModule,
-    MatSelectModule,
-    MatInputModule,
-    MatSnackBarModule,
+    MaterialModule,
     FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
     ReactiveFormsModule
   ],
   providers: [],

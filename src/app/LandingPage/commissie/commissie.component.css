@@ -17,30 +17,16 @@ h5{
   padding: 32px;
   
 }
-
-p.commissie-functie{
-  background-color: darkslateblue;
-  color: white;
-  width: 150px;
-  padding: 10px;
-  display: block;
-  text-align: center;
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-p.lid-omschrijving{
-  width: 300px;
-  display: block;
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-p.commissie-omschrijving{
+mat-card{
+  max-width: 500px;
   display: inline-block;
-  width: 600px;
+  box-shadow: none!important;
 }
-
+mat-card-title,
+::ng-deep div.mat-card-header-text{
+  width: 100%;
+  text-align: center;
+}
 @media only screen and (max-width: 1600px){
   div.container{
     height: auto!important;

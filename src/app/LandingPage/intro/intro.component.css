@@ -3,7 +3,9 @@ div.container-fluid{
   background-size: cover;
   background-position: center;
 }
-
+h4.commissie{
+  margin-top: 165px;
+}
 h4{
   color: orangered;
   text-align: center;
